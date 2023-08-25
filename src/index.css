@@ -1,13 +1,23 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#quote-box{
+  background-color: white;
+  margin: 20px;
+  max-width: 720px;
+  padding: 30px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.fa.fa-twitter-square{
+  font-size: 40px;
+}
+
+.fa.fa-comment{
+  font-size: 40px;
+}
+
+#main-container, 
+#quote-box i,
+#quote-box h2,
+#author p,
+#buttons i,
+#buttons button {
+  transition: background-color 1.5s 0.2s, color 1.5s 0.2s;
 }
